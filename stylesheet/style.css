@@ -13,32 +13,13 @@ h1, h2, h3 {
 }
 
 h1 {
-  padding-top: 35%;
-}
-
-
-.navbar-default {
-  background-color: #CDCDCD;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid white;
+  padding-top: 25%;
 }
 
 
 p {
   color: #FFFFFF;
   padding-bottom: 10px;
-}
-
-
-nav li {
-  text-decoration-style: none;
-  display: inline-block;
-  width: 10%;
-  margin: 0 auto;
-  font-size: 18px;
-  padding-top: 10px;
 }
 
 .skills li {
@@ -107,7 +88,7 @@ img {
 }
 
 
-#socialMedia {
+.socialMedia {
   text-align: center;
 }
 
