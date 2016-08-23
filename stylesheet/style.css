@@ -159,10 +159,6 @@ a:hover, p a:hover {
   text-align: center;
 }
 
-#blogContainer a:link {
-  color: #FFFFFF;
-}
-
 #blogText {
   width: 40%;
   margin: 0 auto;
