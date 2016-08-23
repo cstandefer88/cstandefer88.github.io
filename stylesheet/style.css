@@ -1,0 +1,188 @@
+body {
+  background-color: #CDCDCD;
+  font-family: "Raleway", sans-serif;
+}
+
+
+h1, h2, h3 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+h1 {
+  padding-top: 20%;
+}
+
+
+.navbar-default {
+  background-color: #CDCDCD;
+  text-align: center;
+}
+
+
+p {
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+
+
+nav li {
+  text-decoration-style: none;
+  display: inline-block;
+  width: 10%;
+  margin: 0 auto;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.skills li {
+  text-align: left;
+  color: #FFFFFF;
+}
+
+#aboutContainer {
+  width: 60%;
+  padding: 10px;
+  display: inline-block;
+}
+
+
+#image, #swimspot, #loqal, #xpndbl, #resumeContainer {
+  text-align: center;
+}
+
+
+#swimspot, #loqal, #xpndbl {
+  padding-bottom: 50px;
+  display: table-cell;
+}
+
+
+#profilePicture {
+  max-height: 250px;
+  width: auto;
+}
+
+#image{
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+  margin-top: 40px;
+}
+
+#resumePicture {
+  width: 400px;
+  height: 480px;
+}
+
+
+img {
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  width: 400px;
+  height: 210px;
+}
+
+#about{
+  text-align: left;
+}
+
+#projects {
+  text-align: center;
+}
+
+#writing {
+  text-align: center;
+}
+
+
+#resume {
+  text-align: center;
+}
+
+
+#socialMedia {
+  text-align: center;
+}
+
+
+#resumeContainer {
+  padding-bottom: 35px;
+}
+
+
+#projectContainer {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+
+.fa-github, .fa-linkedin-square, .fa-medium, .fa-envelope-o {
+  color: #FFFFFF;
+  padding: 15px;
+}
+
+a, p a, a:link, p a:link {
+  color: #343A1A;
+  font-weight: bold;
+}
+
+a:hover, p a:hover {
+  text-decoration: none;
+}
+
+.app-description {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.div1 {
+  background: radial-gradient(#ADDFF5, #55AEEF);
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.div2 {
+  background: radial-gradient(#55AEEF, #2176AE);
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.div3 {
+  background: radial-gradient(#2176AE, #1a537a);
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.div4 {
+  background: radial-gradient(#1a537a, #0F3149);
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+
+#blogContainer {
+  text-align: center;
+}
+
+#blogContainer a:link {
+  color: #FFFFFF;
+}
+
+#blogText {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#blog1, #blog2, #blog3 {
+  padding-bottom: 10px;
+  text-align: center;
+}
