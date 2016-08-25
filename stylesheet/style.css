@@ -19,8 +19,8 @@
   }
 
   #profilePicture {
-    height: 196px;
-    width: 294px;
+    height: 25%;
+    width: 80%;
     border: 2px solid #FFFFFF;
     border-radius: 10px;
     margin-top: 5%;
@@ -120,8 +120,8 @@
   }
 
   #resumePicture {
-    width: 294px;
-    height: 400px;
+    width: 80%;
+    height: 60%;
   }
 
   a, p a, a:link, p a:link {
