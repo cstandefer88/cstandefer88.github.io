@@ -1,186 +1,360 @@
-body {
-  background-color: #CDCDCD;
-  font-family: "Raleway", sans-serif;
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 400px) {
+
+  body {
+    background-color: #CDCDCD;
+    font-family: "Raleway", sans-serif;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+
+  #profilePicture {
+    height: 196px;
+    width: 294px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 5%;
+  }
+
+  #image {
+    text-align: center;
+  }
+
+  .fa-github, .fa-linkedin-square, .fa-medium, .fa-envelope-o {
+    color: #FFFFFF;
+    padding: 15px;
+  }
+
+  .socialMedia {
+    text-align: center;
+  }
+
+  #aboutContainer {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+  }
+
+  .div1 {
+    background: radial-gradient(#A8A8A8, #55AEEF);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 25px 25px 0 0;
+  }
+
+  .div2 {
+    background: radial-gradient(#55AEEF, #2176AE);
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+
+  .div3 {
+    background: radial-gradient(#2176AE, #1a537a);
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+
+  .div4 {
+    background: radial-gradient(#1a537a, #0F3149);
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 0 0 25px 25px;
+  }
+
+  img {
+    height: 196px;
+    width: 294px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 5%;
+  }
+
+  p {
+    color: #FFFFFF;
+  }
+
+  .skills li {
+    color: #FFFFFF;
+  }
+
+  #projectContainer {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  .app-description {
+    padding: 5%;
+  }
+
+  #blogContainer {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+  }
+
+  #blog1 a h3, #blog2 a h3, #blog3 a h3 {
+    font-size: 18px;
+  }
+
+  #resumeContainer {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  #resumePicture {
+    width: 294px;
+    height: 400px;
+  }
+
+
 }
 
 
-h1, h2, h3 {
-  text-align: center;
-  color: #FFFFFF;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  padding-bottom: 10px;
-}
-
-h1 {
-  padding-top: 25%;
-}
 
 
-p {
-  color: #FFFFFF;
-  padding-bottom: 10px;
-}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
 
-.skills li {
-  text-align: left;
-  color: #FFFFFF;
-}
+  body {
+    background-color: #CDCDCD;
+    font-family: "Raleway", sans-serif;
+  }
 
-#aboutContainer {
-  width: 60%;
-  padding: 10px;
-  display: inline-block;
-}
+  h1, h2, h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+
+  #profilePicture {
+    height: 15%;
+    width: auto;
+  }
 
 
-#image, #swimspot, #loqal, #xpndbl, #resumeContainer {
-  text-align: center;
+
 }
 
 
-#swimspot, #loqal, #xpndbl {
-  padding-bottom: 50px;
-  display: table-cell;
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+  body {
+    background-color: #CDCDCD;
+    font-family: "Raleway", sans-serif;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+
+  #profilePicture {
+    height: 15%;
+    width: auto;
+  }
+
+
+
 }
 
 
-#profilePicture {
-  height: 250px;
-  width: auto;
-}
 
-#image{
-  display: inline-block;
-  width: 35%;
-  vertical-align: top;
-  margin-top: 40px;
-}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1350px) {
 
-#resumePicture {
-  width: 400px;
-  height: 480px;
-}
+  body {
+    background-color: #CDCDCD;
+    font-family: "Raleway", sans-serif;
+  }
 
 
-img {
-  border: 2px solid #FFFFFF;
-  border-radius: 10px;
-  width: 400px;
-  height: 210px;
-}
+  h1, h2, h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
 
-#about{
-  text-align: left;
-}
-
-#projects {
-  text-align: center;
-}
-
-#writing {
-  text-align: center;
-}
+  h1 {
+    padding-top: 25%;
+  }
 
 
-#resume {
-  text-align: center;
-}
+  p {
+    color: #FFFFFF;
+  }
+
+  .skills li {
+    color: #FFFFFF;
+  }
+
+  #aboutContainer {
+    width: 60%;
+    padding: 10px;
+    display: inline-block;
+  }
 
 
-.socialMedia {
-  text-align: center;
-}
+  #image, #swimspot, #loqal, #xpndbl, #resumeContainer {
+    text-align: center;
+  }
 
 
-#resumeContainer {
-  padding-bottom: 35px;
-}
+  #swimspot, #loqal, #xpndbl {
+    padding-bottom: 50px;
+    display: table-cell;
+  }
 
 
-#projectContainer {
-  display: table;
-  table-layout: fixed;
-  width: 100%;
-}
+  #profilePicture {
+    height: 250px;
+    width: auto;
+  }
+
+  #image{
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    margin-top: 40px;
+  }
+
+  #resumePicture {
+    width: 400px;
+    height: 480px;
+  }
 
 
-.fa-github, .fa-linkedin-square, .fa-medium, .fa-envelope-o {
-  color: #FFFFFF;
-  padding: 15px;
-}
+  img {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    width: 400px;
+    height: 210px;
+  }
 
-a, p a, a:link, p a:link {
-  color: #343A1A;
-  font-weight: bold;
-}
+  #about{
+    text-align: left;
+  }
 
-a:hover, p a:hover {
-  text-decoration: none;
-}
+  #projects {
+    text-align: center;
+  }
 
-.app-description {
-  width: 60%;
-  margin: 0 auto;
-}
+  #writing {
+    text-align: center;
+  }
 
-.div1 {
-  background: radial-gradient(#A8A8A8, #55AEEF);
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 50px;
-  border-radius: 25px 25px 0 0;
-}
 
-.div2 {
-  background: radial-gradient(#55AEEF, #2176AE);
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 10px;
-}
+  #resume {
+    text-align: center;
+  }
 
-.div3 {
-  background: radial-gradient(#2176AE, #1a537a);
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 10px;
-}
 
-.div4 {
-  background: radial-gradient(#1a537a, #0F3149);
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 10px;
-  margin-bottom: 50px;
-  border-radius: 0 0 25px 25px;
-}
+  .socialMedia {
+    text-align: center;
+  }
 
-#blogContainer {
-  text-align: center;
-}
 
-#blogText {
-  width: 40%;
-  margin: 0 auto;
-}
+  #resumeContainer {
+    padding-bottom: 35px;
+  }
 
-#blog1, #blog2, #blog3 {
-  padding-bottom: 10px;
-  text-align: center;
-}
 
-@media only screen and (max-width: 480px) {
-    #blogText {
-      width: 80%;
-    }
+  #projectContainer {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
 
-    #blog1 a h3, #blog2 a h3, #blog3 a h3 {
-      font-size: 16px;
-    }
 
-    #resumePicture {
-      width: 300px;
-      height: 350px;
-    }
+  .fa-github, .fa-linkedin-square, .fa-medium, .fa-envelope-o {
+    color: #FFFFFF;
+    padding: 15px;
+  }
+
+  a, p a, a:link, p a:link {
+    color: #343A1A;
+    font-weight: bold;
+  }
+
+  a:hover, p a:hover {
+    text-decoration: none;
+  }
+
+  .app-description {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .div1 {
+    background: radial-gradient(#A8A8A8, #55AEEF);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 25px 25px 0 0;
+  }
+
+  .div2 {
+    background: radial-gradient(#55AEEF, #2176AE);
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+
+  .div3 {
+    background: radial-gradient(#2176AE, #1a537a);
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+
+  .div4 {
+    background: radial-gradient(#1a537a, #0F3149);
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 0 0 25px 25px;
+  }
+
+  #blogContainer {
+    text-align: center;
+  }
+
+  #blogText {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  #blog1, #blog2, #blog3 {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  #blog1 a h3, #blog2 a h3, #blog3 a h3 {
+    font-size: 24px;
+  }
 
 }
