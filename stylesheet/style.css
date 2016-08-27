@@ -106,6 +106,7 @@
 
   .app-description {
     padding: 5%;
+    text-align: left;
   }
 
   #blogContainer {
@@ -136,6 +137,10 @@
 
   a:hover, p a:hover {
     text-decoration: none;
+  }
+
+  .app-links {
+    display: block;
   }
 
 }
@@ -284,6 +289,10 @@
     text-decoration: none;
   }
 
+  .app-links {
+    display: block;
+  }
+
 
 }
 
@@ -413,6 +422,7 @@
 
   .app-description {
     width: 60%;
+    text-align: left;
     margin: 0 auto;
   }
 
@@ -456,6 +466,10 @@
 
   #blog1 a h3, #blog2 a h3, #blog3 a h3 {
     font-size: 22px;
+  }
+
+  .app-links {
+    display: block;
   }
 
 }
@@ -632,4 +646,7 @@
     font-size: 24px;
   }
 
+  .app-links {
+    display: block;
+  }
 }
